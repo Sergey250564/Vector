@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+}
+
+.test {
+    fill: red;
+}
+
+.test:hover {
+    fill: green;
+}
+
+.header {
+    background: #222222;
+    padding: 18px 0 19px 0;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_right {
+    display: flex;
+}
+
+
+.header_logo {
+    margin: 0 41px 0 0;
+}
+
+.header_item:not(:last-child) {
+    margin: 0 33px 0 0;
+}
+
+.intro {
+    height: 768px;
+    margin: 0 0 65px 0;
+    background-color: #f1e4e6;
+}
+
+.intro_wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    background: url(img/men.png) no-repeat -228px bottom;
+    background-size: 70%;
+}
+
+.intro_text {
+    width: 40%;
+    border-left: 12px solid red;
+}
+
+.intro_text h1 {
+    max-width: 405px;
+    padding: 0 0 0 16px;
+}
+
+.intro_decor {
+    color: red;
+}
+
+.block {
+    margin: 0 0 96px 0;
+}
+
+.block_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* safari этот элемент не поддерживает*/
+    /*justify-content: space-between; можно и так (вместо gap), но gap лучше*/
+}
+
+.block_women {
+    color: #FFFFFF;
+    background-image: url(img/women.png);
+
+}
+
+.block_women h2 {
+    justify-content: center;
+}
+
+.block_men1 {
+    color: #FFFFFF;
+    background-image: url(img/men1.png);
+}
+
+.block_kids {
+    color: #FFFFFF;
+    background-image: url(img/kids.png);
+}
+
+.block_assesories {
+    height: 180px;
+    color: #FFFFFF;
+    background-image: url(img/assesories.png);
+}
+
+.block_item {
+    outline: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_item:not(:last-child) {
+    width: 360px;
+    height: 260px;
+    /*margin: 0 0 36px 0; вместо этого используем элемент gap в блоке .block_wrap*/
+}
+
+.block_item:last-child {
+    width: 100%;
+}
+
+.futitems {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fut_text {
+    width: 182px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop_text {
+    width: 336px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#9F9F9F;
+    margin-top: 6px;
+    margin-bottom: 48px;
+}
+
+.karta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.karta_ellery {
+    width: 31.5%;
+    height: 581px;
+    background-color: #F8F8F8; /*цвет фона карточки*/
+    display: inline-block;
+}
+
+.fut-men_text h4 {
+    padding: 26px 18px 13px;
+    color: #000000;
+}
+
+.fut-men_stil {
+    padding: 0 18px 13px;
+}
+
+.fut-wom_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F7E4E2;
+}
+
+.futitems_decor {
+    padding: 20px 18px;
+    color: red;
+}
+
+.block_button {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0 95px; 
+}
+
+.button {
+    padding: 15px 30px;
+    outline: 1px solid #FF6A6A;
+    background: #FF6A6A;
+    color: #FFFFFF;
+   
+}
+
+.navigator {
+    height: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F8F3F4;
+}
+
+.text_arr {
+    color: #F16D7F;
+    margin-left: 230px;
+}
+.text_home {
+    color: #F16D7F;
+    margin-right: 230px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+.catalog {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter_text {
+    width: 54px;
+    height: 17px;
+    margin-top: 51px;
+    margin-bottom: 61px;
+    margin-right: 11px;
+    color: black;
+}
+
+.filter_v {
+    margin-top: 51px;
+    margin-bottom: 61px;
+    display: flex;
+}
+
+.karta_product {
+    width: 31.5%;
+    height: 581px;
+    background-color: #F8F8F8; /*цвет фона карточки*/
+    display: inline-block;
+}
+
+.fut-negro2_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F7E4E2;
+}
+
+.feature {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #222224;
+}
+
+.feature_card {
+    width: 355px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #FBFBFB;
+}
+
+.free_text {
+    width: 155px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.world_text {
+    height: 34px;
+    padding: 0 35px 0 35px;
+}
+
+.rounded {
+    width: 283px;
+    height: 43px;
+    border: 1px solid #bfbbbb;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.frame {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame:hover.vesti {
+    z-index: 1;
+    display: block;
+}
+
+.vesti {
+    width: 360px;
+    height: 265px;
+    position: absolute;
+    margin-right: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text_vesti {
+    text-align: center;
+}
+
+.subscribe {
+    width: 557px;
+    height: 137px;
+    position: absolute;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_subscribe {
+    display: flex;
+    
+}
+
+.text {
+    padding: 16px 10px;
+    border-radius: 25px 0 0 25px;
+    background-color: #E1E1E1;
+    border: 0 solid rgb(253, 251, 251);
+}
+
+.submit {
+    cursor: pointer;
+    width: 95px;
+    border-radius: 0 25px 25px 0;
+    background-color: #F16D7F;
+    color: white;
+    border: 0 solid rgb(253, 251, 251);
+}
+
+.text::placeholder {
+    color: black;
+    padding: 20px;
+}
+
+.submit:hover {
+    background-color: green;
+}
+
+.submit:active {
+    background-color: blue;
+}
+
+.text:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+.submit:focus {
+    background: orange;
+    outline: none;
+}
+
+.copyright {
+    height: 79px;
+    background: #222224;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyr_text {
+    width: 332px;
+    height: 19px;
+    margin-left: 235px;
+    color: #FBFBFB;
+}
+
+.social_icon {
+    margin-right: 235px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-link {
+    color: #000;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-link:hover {
+     color: #fff;
+     background-color: tomato;
+  }
+  
+  .icon {
+    background-color: gold;
+    padding: 10px;
+    fill: #F16D7F;
+  }
+
+  .icon:hover {
+     fill: #000;
+     background-color: grey;
+  }
+  
